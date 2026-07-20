@@ -1,0 +1,4 @@
+logging:
+  level:
+    com.codearena: DEBUG
+    org.springframework.security: DEBUG
