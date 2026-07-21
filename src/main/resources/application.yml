@@ -6,9 +6,9 @@ spring:
     name: codearena-backend
 
   datasource:
-    url: jdbc:mysql://localhost:3306/codearena?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-    username: root
-    password: Jeeva
+    url: jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/codearena?sslMode=VERIFY_IDENTITY&enabledTLSProtocols=TLSv1.2
+    username: 3Y2KoM7eouQWXFg.root
+    password: 9VR1ZlSKXf5FtBml
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -19,10 +19,10 @@ spring:
       hibernate:
         format_sql: true
 
-  data:
-    redis:
-      host: localhost
-      port: 6379
+#  data:
+#    redis:
+#      host: localhost
+#      port: 6379
 
 jwt:
   secret: change-this-secret-in-production-please-make-it-long
