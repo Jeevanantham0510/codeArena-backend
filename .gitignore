@@ -1,9 +1,4 @@
 target/
 .idea/
 *.iml
-
 .env
-
-logs/
-
-.DS_Store
