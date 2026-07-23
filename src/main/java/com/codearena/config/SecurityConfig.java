@@ -49,7 +49,7 @@ public class SecurityConfig {
     }
 
     @Bean
-    @Bean
+
     public CorsConfigurationSource corsConfigurationSource() {
 
         CorsConfiguration config = new CorsConfiguration();
